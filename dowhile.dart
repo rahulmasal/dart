@@ -1,7 +1,15 @@
+// void main() {
+//   int i = 0;
+//   do {
+//     print(i);
+//     i++;
+//   } while (i < 1);
+// }
+
 void main() {
-  int i = 0;
+  int number = 12;
   do {
-    print(i);
-    i++;
-  } while (i < 1);
+    print(number);
+    number--;
+  } while (number >= 1);
 }
